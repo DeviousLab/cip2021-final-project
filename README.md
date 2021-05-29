@@ -2,6 +2,12 @@
 
 Your final project is a chance to make any interesting application you would like.
 
+The final project of Code in Place is meant to be a celebration of what you have learned and a chance to explore one of the joys of coding. For the final project you can also design a program to do whatever you like.
+
+We encourage aesthetic programs, interesting algorithms and code that solves a neat problem. You can chose something that you think is cool. We are providing a couple standard projects in case you have trouble choosing one.
+
+Make any project you like!
+
 ## Guidelines
 
 Your project could be small and humble or big and expansive. Both are great. All that we care about is that you make one thing that is yours. Examples of great projects could be: a word game on the console, a new image algorithm or filter of your design. It could even be a datascience challenge where you explore data (perhaps even the covid19 data).
