@@ -10,7 +10,7 @@ Make any project you like!
 
 ## Guidelines
 
-Your project could be small and humble or big and expansive. Both are great. All that we care about is that you make one thing that is yours. Examples of great projects could be: a word game on the console, a new image algorithm or filter of your design. It could even be a datascience challenge where you explore data (perhaps even the covid19 data).
+Your project could be small and humble or big and expansive. Both are great. All that we care about is that you make one thing that is yours. Examples of great projects could be: a word game on the console, a new image algorithm or filter of your design. It could even be a data science challenge where you explore data (perhaps even the covid19 data).
 
 Please ask for help on Ed if you have trouble (1) deciding on a good project, (2) getting started, (3) conceptual challenges. We are all one big team and we want to support one another.
 
