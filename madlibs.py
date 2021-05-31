@@ -7,6 +7,7 @@ canvas1 = Canvas(root, width=500, height=750)
 canvas1.pack()
 root.title('Mad Libs Generator')
 
+# creates input fields for user to enter words
 label1 = Label(root, text= 'Final Project Mad Libs Generator \n Enter your words below!' , font = ('helvetica', 20))
 canvas1.create_window(250, 40, window=label1)
 
@@ -94,6 +95,7 @@ canvas1.create_window(150, 490, window=label2)
 entry16 = Entry(root)
 canvas1.create_window(300, 490, window=entry16)
 
+# function that retrieves words and transfers them into the story
 def generateMadLib():
     adverb=entry1.get()
     noun=entry2.get()
@@ -116,6 +118,7 @@ def generateMadLib():
     label4 = Label(root, text = ('In order to wash your face ' +adverb+ ' , you must wet your ' +noun+ ' in warm ' +liquid+'. \n Then, '+verb+' it across your face '+number+' times. This will wash off any remaining '+nounp+'. \n When you are done you should '+verb2+' the cloth in '+adjective+' water to clean it. \nYou should also wash your face with a '+noun2+' to keep it smooth and shiny. \n This will keep also keep away '+nounp2+'. Don`t worry. \n It is normal to experience '+illness+' the first time you try this. \n Consult your '+occupation+' if you break out in '+bodypartp+'. This works well on your '+bodypart+' too!'), font=('helvetica', 9))
     canvas1.create_window(250, 650, window=label4)
 
+# button that calls the function to generate the completed story
 button1 = Button(text='Generate  Lib!', command=generateMadLib, bg='red', fg='white', font=('helvetica', 9, 'bold'))
 canvas1.create_window(250, 525, window=button1)
 
