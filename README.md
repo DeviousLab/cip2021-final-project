@@ -25,7 +25,16 @@ A Mad Lib is an interactive story that you add words to. When prompted, you inse
 
 This is a Mad Libs game developed using Python and Tkinter, many versions of Mad Libs are already available, but I wanted to incorporate a functional GUI into it. 
 
+## Future Improvements
+* Integrate options to choose multiple stories.
+* Try and integrate data entry validation.
+* Integrate a scroll bar.
+
 ## Credits
+[Stanford Code In Place](https://codeinplace.stanford.edu/course)
+
 [CodeAcademy](https://gist.github.com/codecademydev/cde8a5f894d2e17577046ebdcdafa0d5)
 
 [DataFlair](https://data-flair.training/blogs/python-mad-libs-generator-game/)
+
+[DataToFish](https://datatofish.com/entry-box-tkinter/)
