@@ -3,7 +3,7 @@ from tkinter import *
 
 # initialize window
 root = Tk()
-canvas1 = Canvas(root, width=500, height=550)
+canvas1 = Canvas(root, width=500, height=750)
 canvas1.pack()
 root.title('Mad Libs Generator')
 
@@ -110,7 +110,11 @@ def generateMadLib():
     bodypartp=entry15.get()
     bodypart=entry16.get()
 
-    label3 = Label(root, text = (''))
+    label3 = Label(root, text= 'Here is your Mad Lib!', font = 'helvetica')
+    canvas1.create_window(250, 580, window=label3)
+
+    label4 = Label(root, text = ('In order to wash your face ' +adverb+ ' , you must wet your ' +noun+ ' in warm ' +liquid+'. \n Then, '+verb+' it across your face '+number+' times. This will wash off any remaining '+nounp+'. \n When you are done you should '+verb2+' the cloth in '+adjective+' water to clean it. \nYou should also wash your face with a '+noun2+' to keep it smooth and shiny. \n This will keep also keep away '+nounp2+'. Don`t worry. \n It is normal to experience '+illness+' the first time you try this. \n Consult your '+occupation+' if you break out in '+bodypartp+'. This works well on your '+bodypart+' too!'), font=('helvetica', 9))
+    canvas1.create_window(250, 650, window=label4)
 
 button1 = Button(text='Generate  Lib!', command=generateMadLib, bg='red', fg='white', font=('helvetica', 9, 'bold'))
 canvas1.create_window(250, 525, window=button1)
