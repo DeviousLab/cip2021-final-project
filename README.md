@@ -30,6 +30,9 @@ This is a Mad Libs game developed using Python and Tkinter, many versions of Mad
 * Try and integrate data entry validation.
 * Integrate a scroll bar.
 
+# Showcase Link:
+https://codeinplace.stanford.edu/2021/showcase/557
+
 ## Credits
 [Stanford Code In Place](https://codeinplace.stanford.edu/course)
 
